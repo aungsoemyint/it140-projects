@@ -9,25 +9,31 @@
 
 START get_item
 
-    # TODO 1: Identify the information the get-item process needs.
-    # Consider the current room, item in that room, and player's inventory.
+    SET current_room
+    SET room_item
+    SET inventory
+   
+    OUTPUT "What item would you like to get?"
+    INPUT item_command
 
-    # TODO 2: Prompt for and receive the player's get-item command.
+    IF item_command matches room_item
 
-    # TODO 3: Validate whether the requested item is available in the current
-    # room. Show the decision clearly.
+    ADD room_item TO inventory
+    OUTPUT "You picked up the " + room_item + "."
+    OUTPUT "The " + room_item + " has been added to your inventory."
+    SET room_item TO none
 
-    # TODO 4: Describe what happens when the item request is valid.
-    # Include the inventory update and player output.
+ELSE
+    OUTPUT "That item is not available in this room."
+    OUTPUT "Please choose an item that is available in your current room."
 
-    # TODO 5: Describe what happens when the item request is invalid.
-    # Include the output the player should receive.
-
-    # TODO 6: Show how the process returns to or continues the larger gameplay
-    # loop after the command is handled.
-
+END IF
+    OUTPUT "Returning to the game."
+    RETURN TO GAME LOOP
+    
 END get_item
 
 
 # References
+IT 140 Project One Guidelines and Rubric; https://learn.snhu.edu/d2l/le/content/2382646/viewContent/52159429/View
 
