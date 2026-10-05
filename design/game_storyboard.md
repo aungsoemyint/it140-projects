@@ -18,14 +18,14 @@ the player must gather, and the threat created by the villain.
 
 Project One requires a minimum of eight rooms.
 
-1. TODO: Start room
-2. TODO: Room
-3. TODO: Room
-4. TODO: Room
-5. TODO: Room
-6. TODO: Room
-7. TODO: Room
-8. TODO: Villain room
+1. Entrance Hall: Start room
+2. Library Room: Room for the book
+3. Kitchen Room: Room for the lamp
+4. Dinning Room: Room for the silver coin
+5. Guest Bedroom: Room for the map
+6. Study Room: Room for the spell magic drink
+7. Storage Room: Room for the Bow and arrows
+8. Basement Room: Villain room
 
 Add more rooms if your design needs them.
 
@@ -34,19 +34,19 @@ Add more rooms if your design needs them.
 With the minimum eight-room design, Project One requires at least six items.
 Every room except the start room and villain room must contain one item.
 
-1. TODO: Item
-2. TODO: Item
-3. TODO: Item
-4. TODO: Item
-5. TODO: Item
-6. TODO: Item
+1. Book
+2. Lamp
+3. Silver coin
+4. Map
+5. Magic spell drink
+6. Bow and arrows
 
 If you add rooms beyond the minimum, add an item for every additional room
 except the start room and villain room.
 
 ## Villain
 
-TODO: Identify and briefly describe the villain.
+Dragon: The Dragon is a powerful creature that guards the final room of the mansion. It prevents the player from escaping and protects the treasure inside the room. The player must explore the mansion and collect the necessary items. After finding the bow and arrows, the player can enter the Dragon's room and use them to defeat the Dragon and escape the mansion.
 
 ## Storyboard and Map Check
 
